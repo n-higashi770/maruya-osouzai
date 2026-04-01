@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="まるや惣菜店の公式ウェブサイト。創業1912年。夜に開店する老舗の惣菜店。">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>まるや惣菜店　公式ウェブサイト</title>
+</head>
+
+<body>
+
+    <header id="hero" class="section"> 
+            <h1 class="site-title">
+                <a href="index.html" class="header-logo">
+                    <img src="image/logo.png" alt="まるや惣菜店">
+                </a>
+            </h1>
+            <div class="header-sns">
+                <button class="sns-link">
+                    <img src="image/logo-insta-white.png" alt="まるや惣菜店の公式インスタグラム">
+                </button>
+            </div>
+            <div class="hero-text">
+                    <p class="fadein">いつもの夜に、<br>心ほぐれるお惣菜。</p>
+            </div>
+    </header>
+    <nav class="header-nav">
+                <ul>
+                    <li class="only-sp"><a href="#hero">トップ</a></li>
+                    <li><a href="#aboutus">私たちについて</a></li>
+                    <li><a href="#news">お知らせ</a></li>
+                    <li><a href="#menu">お品書き</a></li>
+                    <li><a href="#info">店舗情報</a></li>
+                </ul>
+
+                <!-- スマホ用 -->
+                 <button class="hamburger" aria-label="メニューを開く">
+                    <span></span><span></span><span></span>
+                </button>
+                 <div class="nav-sns">
+                    <button class="sns-link">
+                        <img src="image/logo-insta-white.png" alt="まるや惣菜店の公式インスタグラム">
+                    </button>
+                </div>
+    </nav>
+
+    <section id="aboutus" class="section">
+        <div class="container aboutus-inner">
+            <article class="aboutus-row">
+                <div class="aboutus-text">
+                    <h2>私たちについて</h2>
+                    <h3>夜に開く総菜屋。</h3>
+                        <p class="pc-br">「まるや惣菜店」が開店するのは<span>夜のとばりが下りる頃。</span></p>
+                        <p class="pc-br">日替わりのお惣菜を<span>お持ち帰りやイートインで。</span></p>
+                        <p class="pc-br">忙しない日々の終わりに<span>「ホッ」と一息つけるお店です。</span></p>
+                </div>
+                <div class="aboutus-img">
+                    <img src="image/aboutus1.jpg" alt="まるや惣菜展の落ち着いた雰囲気の店内の様子">
+                </div>
+            </article>
+
+            <article class="aboutus-row reverse">
+                <div class="aboutus-text reverse">
+                    <h3 class="pc-br">夜の総菜屋が<span>生まれた理由。</span></h3>
+                        <p class="pc-br">「まるや惣菜店」は、創業1912年。</p>
+                        <p>「一日の終わりに安らげる場所を」。</p>
+                        <p class="pc-br">初代当主・丸谷雅美のそんな想いから<span>始まりました。</span></p>
+                        <p class="pc-br">その想いを受け継ぎ、人々の心に<span>寄り添う変わらない美味しさを</span>これからも届け続けていきます。</p>
+                </div>
+                <div class="aboutus-img slideshow">
+                    <img src="image/aboutus2-1.jpg" class="slide active" alt="創業当時のまるや惣菜店の外観と初代店主夫妻">
+                    <img src="image/aboutus2-2.jpg" class="slide" alt="現在のまるや惣菜店の外観と現当主一家">
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="news" class="section">
+            <div class="wrap">
+                <div class="wrap-inner">
+                <h2>お知らせ</h2>
+                    <h3>最新情報</h3>
+
+                    <article class="news-item">
+                        <button class="news-title"
+                                aria-expanded="false"
+                                aria-controls="news-content-1">
+                            <div class="news-text">
+                                <time datetime="2026-02-11">2026.02.11</time>
+                                <p class="news-heading">
+                                    2/15 TKA系列「町ブラ日曜日」に登場！
+                                </p>
+                            </div>
+                                <span class="news-icon" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="news-content" id="news-content-1">
+                            <p>2月15日19時放送　TKA系列「町ブラ日曜日」に当店が登場します。</p>
+                            <p>馬肉コロッケ他、当店の商品が登場いたします。</p>
+                            <p>ぜひご視聴ください。</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <button class="news-title"
+                                aria-expanded="false"
+                                aria-controls="news-content-2">
+                            <div class="news-text">
+                                <time datetime="2025-12-23">2025.12.23</time>
+                                <p class="news-heading">
+                                    年末年始の営業について
+                                </p>
+                            </div>
+                                <span class="news-icon" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="news-content" id="news-content-2">
+                            <p>日頃のご愛顧誠にありがとうございます。</p>
+                            <p>12月28日~1月3日の6日間は休業いたします。</p>
+                            <p>お問い合わせいただいてもお応えできませんので、ご理解のほどお願い申し上げます。</p>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <button class="news-title"
+                                aria-expanded="false"
+                                aria-controls="news-content-3">
+                            <div class="news-text">
+                                <time datetime="2025-09-26">2025.09.26</time>
+                                <p class="news-heading">
+                                    秋の味覚フェア開催！
+                                </p>
+                            </div>
+                            <span class="news-icon" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="news-content" id="news-content-3" >
+                            <p>10月1日より「秋の味覚フェア」を開催いたします。</p>
+                            <p>さんまの塩焼き、栗ごはんなど、秋の味覚をふんだんに使用したお惣菜が登場。</p>
+                            <p>ぜひご賞味ください。</p>
+                            <small>※仕入れ状況によって店頭に並ぶ商品が変わります。</small>
+                        </div>
+                    </article>
+                </div>
+        </div>
+            <div class="bg-gallery">
+                    <div class="bg-box box1"></div>
+                    <div class="bg-box box2"></div>
+                    <div class="bg-box box3"></div>
+                    <div class="bg-box box4"></div>
+                    <div class="bg-box box5"></div>
+                    <div class="bg-box box6"></div>
+            </div>
+    </section>
+
+    <section id="menu" class="section">
+        <div class="container menu-inner">
+            <div class="menu-header">
+
+                <div class="menu-intro">
+                    <h2>お品書き</h2>
+                    <p>国産の食材を使用し、店主が一つ一つ丁寧に手作りしたお惣菜です。</p>
+                    <p>どこか懐かしさを感じる、心ほどける味をご賞味ください。</p>
+                    <small>※仕入れ状況によって店頭に並ぶ商品が変わります。詳細はSNSをご確認ください。</small>
+                </div>
+
+                <h3 class="menu-lead">人気のおかず</h3>
+                
+            </div>
+
+            <article class="menu-row">
+                <figure class="menu-img">
+                    <img src="image/item1.jpg" alt="まるや名物！馬肉コロッケ" loading="lazy">
+                </figure>
+                <div class="menu-text">
+                    <p class="badge badge-recommend">人気No.1</p>
+                    <h4>まるや名物！<br>馬肉コロッケ</h4>
+                    <p class="pc-br">外はカリカリ、中はホクホク。<span>
+                        熊本県産の馬肉を使用した、</span>
+                        <span>創業以来変わらない伝統の味です。</span></p>
+                    <p class="price">
+                        <span class="yen">216円</span>
+                        <span class="tax">（税込）</span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="menu-row">
+                <figure class="menu-img">
+                    <img src="image/item2.jpg" alt="至福の出汁巻き" loading="lazy">
+                </figure>
+                <div class="menu-text">
+                    <span class="badge badge-recommend">店長のオススメ</span>
+                    <h4>至福の出汁巻き</h4>
+                    <p class="pc-br">じゅわっと広がる出汁の<span>旨味がたまらない。</span>
+                    店長イチオシの逸品です。</p>
+                    <p class="price">
+                        <span class="yen">432円</span>
+                        <span class="tax">（税込）</span>
+                    </p>
+                </div>
+            </article>
+
+            <article class="menu-row">
+                <figure class="menu-img">
+                    <img src="image/item3.jpg" alt="チキン南蛮" loading="lazy">
+                </figure>
+                <div class="menu-text">
+                    <p class="badge badge-recommend">まるやの新定番</p>
+                    <h4>チキン南蛮</h4>
+                    <p class="pc-br">サクサクの衣にたっぷり絡んだ
+                        <span>特製タルタルと甘酢あんが絶品。</span>
+                        <span>まるやの新定番商品です。</span></p>
+                    <p class="price">
+                        <span class="yen">648円</span>
+                        <span class="tax">（税込）</span>
+                    </p>
+                </div>
+            </article>
+
+            <div class="menu-sns">
+                <p class="badge-sns">その他の商品をチェック！</p>
+
+                <div class="sns-buttons">
+                    <button class="sns-link sns-a" aria-label="LINEで日替わりメニューを見る">
+                        <img src="image/button1.png" alt="まるや惣菜店公式LINE">
+                    </button>
+                    <button class="sns-link sns-b" aria-label="インスタグラムで日替わりメニューを見る">
+                        <img src="image/button2.png" alt="まるや惣菜店の公式インスタグラムト">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="section">
+        <div class="container info-inner">
+                    <div class="map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6707.648358765234!2d130.69823865!3d32.796920899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f468ffa889c9%3A0xd6cef324e7263f2d!2z44CSODYwLTAwMjgg54aK5pys55yM54aK5pys5biC5Lit5aSu5Yy65Lit5ZSQ5Lq655S6!5e0!3m2!1sja!2sjp!4v1773636375226!5m2!1sja!2sjp" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade" 
+                            title="まるや惣菜店までの地図">
+                        </iframe>
+                    </div>
+
+                <div class="info-flex">
+                    <div class="info-left">
+                        <img src="image/info.jpg" alt="店の外観と店主一家。" class="info-img" loading="lazy">
+                        <a href="tel:09000000000" class="call-button">
+                            <img src="image/button3.png" alt="電話する">
+                        </a>
+                        <small>※商品のお取り置きは行っておりません。</small>
+                    </div>
+
+                    <div class="info-shop">
+                            <h2>店舗情報</h2>
+                            <h3>まるや惣菜店</h3>
+                        <dl>
+                                <dt>住所</dt>
+                                <dd>〒860-0028<br>
+                                        熊本県熊本市中央区 中唐人町 x-x</dd>
+                                        
+                                <dt>アクセス方法</dt>
+                                <dd>バス停「呉服町」より徒歩3分<br>
+                                        市電「︎呉服町」駅より徒歩5分</dd>
+
+                                <dt>駐車場</dt>
+                                <dd>3台</dd>
+                         
+                                <dt>営業時間</dt>
+                                <dd>16:00~23:00</dd>
+                     
+                                <dt>定休日</dt>
+                                <dd>毎週水曜日</dd>
+                        </dl>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <footer id="site-footer">
+        <div class="footer-left">
+            <dl>
+                <dt>住所 : </dt>
+                <dd><p>〒860-0028</p>
+                    <p>熊本県熊本市中央区 中唐人町 x-x</p>
+                </dd>
+                <dt>TEL : </dt>
+                <dd>090-xxxx-xxxx</dd>
+            </dl>
+        </div>
+
+         <a href="index.html" class="footer-logo">
+            <img src="image/logo.png" alt="まるや惣菜店">
+        </a>
+
+        <div class="footer-right">
+            <nav class="footer-nav" aria-label="フッターナビゲーション">
+                <ul>
+                <li><a href="#aboutus">私たちについて</a></li>
+                <li><a href="#news">お知らせ</a></li>
+                <li><a href="#menu">お品書き</a></li>
+                <li><a href="#info">店舗情報</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-sns">
+                <button class="sns-link">
+                <img src="image/logo-insta-white.png" alt="まるや惣菜店の公式インスタグラムアカウント">
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-center">
+            <small>&copy;　2026 まるや惣菜店 All Rights Reserved.</small>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
