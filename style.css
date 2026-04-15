@@ -555,6 +555,7 @@ h4 {
   padding-bottom: 40px;
   max-width: none;
   transform: translateX(0);
+  gap: var(--space-sm);
   text-align: justify;
   text-align-last: left;
 }
@@ -752,9 +753,17 @@ footer {
 #site-footer {
     display: grid;
     grid-template-columns: 1fr auto 1fr; 
+    grid-template-rows: 1fr auto;
     align-items: start;                 
     gap: var(--space-xl);
     padding: 40px;
+    min-height: 400px;
+}
+
+.footer-left,
+.footer-logo,
+.footer-right {
+    grid-row: 1;
 }
 
 /* 左（店舗情報） */
@@ -831,7 +840,8 @@ footer {
 
 /* コピーライト */
 .footer-center {
-    grid-column: 1 / -1;  /* 全幅 */
+    grid-column: 1 / -1; 
+    grid-row: 2;
     text-align: center;
     margin-top: var(--space-xl);
     color: #fff;
